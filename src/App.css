@@ -1,1 +1,29 @@
+.container{
 
+}
+.logo{
+  
+  float: left
+}
+.maintabs{
+
+  float: left;
+}
+.tabs{
+ list-style-type: none;
+ overflow: hidden;
+}
+.subtabs{
+list-style-type: none;
+}
+.name{
+
+float: left;
+} 
+
+
+
+.profile{
+ 
+  float: right
+}

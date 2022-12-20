@@ -1,29 +1,47 @@
-.container{
+.navbar {
+  margin-top: 50px;
 
 }
-.logo{
-  
-  float: left
-}
-.maintabs{
-
+.block {
   float: left;
 }
-.tabs{
- list-style-type: none;
- overflow: hidden;
+
+.logo {
+  text-decoration: none;
+  color: black;
+  margin-left: 100px;
 }
-.subtabs{
-list-style-type: none;
+
+.maintabs {
+  display: inline-block;
+
+  margin-left: 100px;
 }
-.name{
 
-float: left;
-} 
+.tabs {
+  /* float: left; */
+  list-style-type: none;
+  display: contents;
 
 
+  /* overflow: hidden; */
+}
 
-.profile{
- 
-  float: right
+.subtabs {
+  list-style-type: none;
+}
+.name {
+  float: left;
+  margin-left: 100px;
+}
+
+.deco {
+  text-decoration: none;
+  color: black;
+}
+
+.profile {
+  float: right;
+  margin-right: 100px;
+  color: black;
 }

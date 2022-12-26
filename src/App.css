@@ -1,47 +1,147 @@
 .navbar {
-  margin-top: 50px;
-
+  background-color: rgb(75, 148, 231);
+  margin-top: 25px;
+  
 }
-.block {
-  float: left;
-}
-
 .logo {
   text-decoration: none;
   color: black;
-  margin-left: 100px;
+  position: absolute;
 }
-
 .maintabs {
-  display: inline-block;
-
-  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
 }
-
 .tabs {
-  /* float: left; */
-  list-style-type: none;
-  display: contents;
-
-
-  /* overflow: hidden; */
+   list-style-type: none;
+   position: absolute;
 }
 
-.subtabs {
-  list-style-type: none;
-}
-.name {
+.name1 {
   float: left;
-  margin-left: 100px;
+  
 }
-
+.name2 {
+  float: left;
+  margin-left: 25px;
+}
+.name3 {
+  float: left;
+  margin-left: 25px;
+}
+.name4 {
+  float: left;
+  margin-left: 25px;
+}
+.name5 {
+  float: left;
+  margin-left: 25px;
+}
+.name6 {
+  float: left;
+  margin-left: 25px;
+}
 .deco {
   text-decoration: none;
   color: black;
 }
-
 .profile {
-  float: right;
-  margin-right: 100px;
-  color: black;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 25px;
+}
+
+
+@media only screen and (min-width:480px) {
+ 
+  .container{
+    height: 90px;
+}
+
+  .logo {
+    margin-left: 40px;
+    margin-top: 22px;
+   
+  }
+  .tabs{
+    margin-top: 50px;
+     margin-right: 20px;
+  }
+
+
+}
+@media only screen and (min-width:600px) {
+ 
+  .container{
+    height: 90px;
+}
+
+  .logo {
+    margin-left: 105px;
+    margin-top: 22px;
+}
+   
+  
+  .tabs{
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+}
+
+@media only screen and (min-width:768px) {
+
+  .container{
+    height: 50px;
+}
+
+  .logo {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+   
+  
+  .tabs{
+    margin-top: 20px;
+    margin-left: 180px;
+  }
+
+  .maintabs {
+    margin-left: -115px;
+  }
+  .profile {
+    float: right;
+    color: black;
+    margin-top: 0px;
+    margin-right: -180px;
+  }
+}
+@media only screen and (min-width:1080px) {
+
+  .container{
+    height: 50px;
+}
+
+
+  .logo {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+   
+  
+  .tabs{
+    margin-top: 15px;
+    margin-left: 360px;
+  }
+
+  .maintabs {
+    margin-left: -115px;
+  }
+  .profile {
+    float: right;
+    color: black;
+    margin-top: 0px;
+    margin-right: -260px;
+    -ms-flex: auto;
+  }
 }

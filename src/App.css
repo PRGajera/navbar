@@ -1,147 +1,29 @@
 .navbar {
   background-color: rgb(75, 148, 231);
   margin-top: 25px;
-  
+  width: 100%;
+  height: 90px;
 }
 .logo {
   text-decoration: none;
   color: black;
-  position: absolute;
+  float: left;
 }
 .maintabs {
   display: flex;
   flex-direction: row;
+  float: left;
 }
 .tabs {
    list-style-type: none;
-   position: absolute;
+   float: left;
 }
-
-.name1 {
-  float: left;
-  
-}
-.name2 {
-  float: left;
-  margin-left: 25px;
-}
-.name3 {
-  float: left;
-  margin-left: 25px;
-}
-.name4 {
-  float: left;
-  margin-left: 25px;
-}
-.name5 {
-  float: left;
-  margin-left: 25px;
-}
-.name6 {
-  float: left;
-  margin-left: 25px;
+.name {
+  float: left;  
 }
 .deco {
   text-decoration: none;
   color: black;
 }
-.profile {
-    position: absolute;
-    margin-left: 370px;
-    margin-top: 25px;
-}
 
 
-@media only screen and (min-width:480px) {
- 
-  .container{
-    height: 90px;
-}
-
-  .logo {
-    margin-left: 40px;
-    margin-top: 22px;
-   
-  }
-  .tabs{
-    margin-top: 50px;
-     margin-right: 20px;
-  }
-
-
-}
-@media only screen and (min-width:600px) {
- 
-  .container{
-    height: 90px;
-}
-
-  .logo {
-    margin-left: 105px;
-    margin-top: 22px;
-}
-   
-  
-  .tabs{
-    margin-top: 50px;
-    margin-left: 80px;
-  }
-
-}
-
-@media only screen and (min-width:768px) {
-
-  .container{
-    height: 50px;
-}
-
-  .logo {
-    margin-left: 10px;
-    margin-top: 20px;
-}
-   
-  
-  .tabs{
-    margin-top: 20px;
-    margin-left: 180px;
-  }
-
-  .maintabs {
-    margin-left: -115px;
-  }
-  .profile {
-    float: right;
-    color: black;
-    margin-top: 0px;
-    margin-right: -180px;
-  }
-}
-@media only screen and (min-width:1080px) {
-
-  .container{
-    height: 50px;
-}
-
-
-  .logo {
-    margin-left: 50px;
-    margin-top: 15px;
-}
-   
-  
-  .tabs{
-    margin-top: 15px;
-    margin-left: 360px;
-  }
-
-  .maintabs {
-    margin-left: -115px;
-  }
-  .profile {
-    float: right;
-    color: black;
-    margin-top: 0px;
-    margin-right: -260px;
-    -ms-flex: auto;
-  }
-}

@@ -27,10 +27,10 @@ function App() {
               <a href='#' className='deco'>About</a>
               </li>
           </ul >
-          <div className='profile'>
-            {/* <a href='#'><CgProfile /></a> */}
           </div>
-        </div>
+          <div className='profile'>
+            <a href='#'><CgProfile /></a>
+          </div>
       </div>
     </nav >
   );

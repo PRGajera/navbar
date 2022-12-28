@@ -1,29 +1,135 @@
 .navbar {
   background-color: rgb(75, 148, 231);
-  margin-top: 25px;
   width: 100%;
   height: 90px;
+  border:3px solid rgb(208, 21, 214);
 }
 .logo {
   text-decoration: none;
   color: black;
-  float: left;
+  border:3px solid red;
+  display:inline-block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
 .maintabs {
-  display: flex;
-  flex-direction: row;
-  float: left;
+  border:3px solid rgb(68, 25, 223);
+  display:block;
+    width: 33%;
+    margin: auto;
+   
 }
 .tabs {
    list-style-type: none;
-   float: left;
+   border:3px solid rgb(223, 210, 31);
+   margin: 0px;
+   margin-top: 14px;
+   display: inline-flex;
+   flex-direction: row;
 }
-.name {
-  float: left;  
+.name{
+  margin-left: 25px;
 }
 .deco {
   text-decoration: none;
   color: black;
 }
+.profile{
+  display:inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+   border:3px solid rgb(31, 223, 41);
+}
 
-
+@media only screen and (max-width: 600px){
+  .navbar{
+    height: 120px;
+  }
+  .logo{
+    display:inline-block;
+    position: absolute;
+    left: 78px;
+    top: 20px;
+  }
+  .maintabs{
+    display:block;
+    width: 90%;
+    margin: auto;
+  }
+  .tabs{
+    display: block;
+    width: 90%;
+    margin: 60px auto;
+    padding: 0px;
+  }
+  .name{
+    display: inline-block;
+  }
+  .profile{
+    display:inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+} 
+ /* @media only screen and (max-width: 768px){
+  .navbar{
+    height: 60px;
+  }
+  .logo{
+    display:inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .maintabs{
+    display:block;
+    width: 58%;
+    margin: auto;
+  }
+  .tabs{
+    margin: 0px;
+    margin-top: 14px;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .name{
+    diplay:inline-block;
+  }
+  .profile{
+    display:inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+} */
+/* @media only screen and (max-width: 992px){
+  .navbar{
+    height: 60px;
+  }
+  .logo{
+    display:inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .maintabs{
+    display:block;
+    width: 33%;
+    margin: auto;
+  }
+  .tabs{
+    margin: 0px;
+    margin-top: 14px;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .profile{
+    display:inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+} * */

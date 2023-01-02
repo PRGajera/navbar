@@ -1,28 +1,21 @@
 .navbar {
-  background-color: rgb(75, 148, 231);
+  /* background-color: rgb(75, 148, 231); */
   width: 100%;
-  height: 90px;
   border:3px solid rgb(208, 21, 214);
 }
 .logo {
   text-decoration: none;
   color: black;
-  border:3px solid red;
-  display:inline-block;
-  position: absolute;
-  left: 20px;
-  top: 20px;
+  /* border:3px solid red; */
+  
+ 
 }
 .maintabs {
-  border:3px solid rgb(68, 25, 223);
-  display:block;
-    width: 33%;
-    margin: auto;
-   
+  /* border:3px solid rgb(68, 25, 223);    */
 }
 .tabs {
    list-style-type: none;
-   border:3px solid rgb(223, 210, 31);
+   /* border:3px solid rgb(223, 210, 31); */
    margin: 0px;
    margin-top: 14px;
    display: inline-flex;
@@ -36,36 +29,60 @@
   color: black;
 }
 .profile{
-  display:inline-block;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-   border:3px solid rgb(31, 223, 41);
+   /* border:3px solid rgb(31, 223, 41);  */
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 992px){ 
   .navbar{
-    height: 120px;
+    height: 60px;
   }
   .logo{
     display:inline-block;
     position: absolute;
-    left: 78px;
+    left: 20px;
     top: 20px;
   }
   .maintabs{
     display:block;
-    width: 90%;
+    width: 33%;
     margin: auto;
   }
   .tabs{
-    display: block;
-    width: 90%;
-    margin: 60px auto;
-    padding: 0px;
+    margin: 0px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   }
-  .name{
-    display: inline-block;
+  .profile{
+    display:inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}  
+@media only screen and (max-width: 992px){ 
+
+  .navbar{
+    height: 60px;
+  }
+  .logo{
+    display:inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .maintabs{
+    display:block;
+    width: 33%;
+    margin: auto;
+  }
+  .tabs{
+    margin: 0px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   }
   .profile{
     display:inline-block;
@@ -74,7 +91,7 @@
     top: 20px;
   }
 } 
- /* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
   .navbar{
     height: 60px;
   }
@@ -92,11 +109,12 @@
   .tabs{
     margin: 0px;
     margin-top: 14px;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
   }
   .name{
-    diplay:inline-block;
+    display:inline-block;
   }
   .profile{
     display:inline-block;
@@ -104,32 +122,74 @@
     right: 20px;
     top: 20px;
   }
-} */
-/* @media only screen and (max-width: 992px){
+} 
+@media only screen and (max-width: 600px){
   .navbar{
-    height: 60px;
+    height: 120px;
   }
   .logo{
     display:inline-block;
     position: absolute;
-    left: 20px;
+    left: 80px;
     top: 20px;
   }
   .maintabs{
     display:block;
-    width: 33%;
+    width: 90%;
     margin: auto;
   }
   .tabs{
-    margin: 0px;
-    margin-top: 14px;
-    display: inline-flex;
-    flex-direction: row;
+    display: block;
+    width: 90%;
+    margin: 60px auto;
+    padding: 0px;
+  }
+  .name{
+    display: inline-block;
   }
   .profile{
-    display:inline-block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
+    display: block;
+    width: 10%;
+    margin-top: -123px;
+    margin-left: 400px;
+    margin-right: auto;
+    position:initial ;
+    top: 0px;
+    right: 0px;
   }
-} * */
+  .profile a{
+    display: block;
+    width: 50%;
+    margin: auto;
+
+  }
+} 
+/* @media only screen and (max-width: 480px){
+  .navbar{
+   height: 100%;
+  }
+  .logo{
+  margin-left: 20px;
+  }
+  .maintabs{
+    display:block;
+    width: 100%;
+    margin: 0px;
+  }
+  .tabs{
+    margin: 0px;
+    margin-top:0px;
+    display:block;
+  }
+
+  .profile{
+    padding-left: 65px;
+    padding-top: 10px;
+  }
+  .profile a{
+  display:block;
+  width: 100%;
+  margin: 0px;
+
+  }
+}  */

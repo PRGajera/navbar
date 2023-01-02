@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 import { FaCube } from 'react-icons/fa';
 import { CgProfile } from 'react-icons/cg';
 
@@ -9,6 +10,7 @@ function App() {
     <nav className='navbar'>
       <div className='container'>
         <a href='#' className='logo'> <FaCube />Untitle UI </a>
+
         <div className='maintabs'>
           <ul className='tabs'>
             <li className='name'>
@@ -22,15 +24,16 @@ function App() {
             </li>
             <li className='name'>
               <a href='#' className='deco'>Pricing</a>
-              </li>
+            </li>
             <li className='name'>
               <a href='#' className='deco'>About</a>
-              </li>
+            </li>
           </ul >
-          </div>
-          <div className='profile'>
-            <a href='#'><CgProfile /></a>
-          </div>
+        </div>
+        <div className='profile'>
+          <a href='#'><CgProfile /></a>
+        </div>
+
       </div>
     </nav >
   );
